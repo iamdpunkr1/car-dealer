@@ -1,0 +1,12 @@
+.hbtn{
+  clip-path: polygon(0% 0%, 91% 0%, 100% 100%, 0% 100%);
+}
+
+.hbtns{
+  clip-path: polygon(0% 0%,   100% 0%, 100% 100%, 11.5% 100%);
+}
+
+.navlinks{
+  clip-path: polygon(0% 0%, 98% 0%, 100% 100%, 0% 100%);
+}
+
