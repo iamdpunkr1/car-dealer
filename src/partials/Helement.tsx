@@ -10,8 +10,8 @@ const Helement = ({title, description, logo }: HelementProps) => {
     <div className="flex items-center">
     {logo}
     <div className="ml-2">
-        <h3 className="font-bold text-lg relative top-1">{title}</h3>
-        <p>{description}</p>
+        <h3 className="font-bold text-md relative ">{title}</h3>
+        <p className="text-sm">{description}</p>
     </div>
 </div>
   )
