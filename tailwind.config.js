@@ -5,7 +5,11 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      backgroundImage:{
+        'parallax': 'url("/src/assets/hero.jpg")'
+      }
+    },
   },
   plugins: [],
 }

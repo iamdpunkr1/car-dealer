@@ -10,3 +10,27 @@
   clip-path: polygon(0% 0%, 98% 0%, 100% 100%, 0% 100%);
 }
 
+
+.image-container {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+
+.image-container img {
+  object-fit: cover;
+}
+
+.zoomed {
+  animation: zoomAnimation 3s forwards; 
+}
+
+@keyframes zoomAnimation {
+  from {
+    transform: scale(1);
+  }
+  to {
+    transform: scale(1.2); /* Adjust the zoom level */
+  }
+}

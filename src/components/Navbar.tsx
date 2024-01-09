@@ -4,7 +4,10 @@ import { IoCall, IoEarthOutline } from "react-icons/io5";
 import { MdOutlineAccessTime, MdOutlineEmail } from "react-icons/md";
 import logo from '../assets/logo.png'
 import Helement from "../partials/Helement";
-
+const iconStyles= {
+    size: 22,
+    color: "#666"
+}
 const Navbar = () => {
   return (
     <header className="border-t-[6px] border-[#ecba00]">
@@ -12,10 +15,10 @@ const Navbar = () => {
         <nav className="max-w-[1200px] mx-auto flex justify-between items-center py-[15px] border-b-[1px] border-[#eee]">
             <h1 className="">Welcome to Autodealer Car Service</h1>
             <div className="flex gap-4 items-center">
-             <FaFacebookF size={22}/>
-             <FaTwitter size={22}/>
-             <TfiYoutube size={22}/>
-             <FaInstagram size={22}/>
+             <FaFacebookF {...iconStyles} />
+             <FaTwitter {...iconStyles}/>
+             <TfiYoutube {...iconStyles}/>
+             <FaInstagram {...iconStyles}/>
 
              <div className="flex ml-8 relative">
                 <div className="flex items-center bg-[#222] py-4 px-6 hbtn relative left-3">
