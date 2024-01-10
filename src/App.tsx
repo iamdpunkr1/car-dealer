@@ -3,6 +3,7 @@ import Find from "./components/Find"
 import Hero from "./components/Hero"
 import './App.css'
 import Welcome from "./components/Welcome"
+import Types from "./components/Types"
 
 function App() {
 
@@ -12,6 +13,7 @@ function App() {
     <Hero />
     <Find/>
     <Welcome/>
+    <Types/>
     </>
   )
 }

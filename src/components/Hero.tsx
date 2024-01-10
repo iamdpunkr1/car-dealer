@@ -89,14 +89,17 @@ const Hero = () => {
               } ${"zoomClass"}`}
             >
               
-              <div className="absolute flex justify-center md:justify-end lg:justify-end" style={{top:"20%"}}>
-                  <div style={{width:"73%"}}>
-                  <p className="text-white text-md font-bold">DRIVE YOUR DREAM CAR</p>
-                  <h1 className="text-5xl text-white font-bold ">{i%2==0? "LEXUS NX 300 2018":"WANT TO BUY YOUR FAVOURITE SUV?"}</h1>
-                  <h2 className="text-3xl text-white font-light mt-4">
-                    REFRESHED STYLE, HIGH PERFORMANCE  & OUTSTANDING TECHNOLOGY
-                  </h2>
-                  <img src={price1} alt="" className="mt-4"/>
+              <div className="max-w-[1200px]  mx-auto " >
+                  <div style={{height:"70vh"}}  className={`flex  items-center justify-center ${i%2==0? " md:justify-end lg:justify-end":" md:justify-start lg:justify-start"}`}>
+                  
+                  <div className="w-11/12 md:w-7/12 lg:w-5/12">
+                    <p className="text-white text-md font-bold">DRIVE YOUR DREAM CAR</p>
+                    <h1 className="text-5xl text-white font-bold ">{i%2==0? "LEXUS NX 300 2018":"WANT TO BUY YOUR FAVOURITE SUV?"}</h1>
+                    <h2 className="text-3xl text-white font-light mt-4">
+                      REFRESHED STYLE, HIGH PERFORMANCE  & OUTSTANDING TECHNOLOGY
+                    </h2>
+                    <img src={price1} alt="" className="mt-4"/>
+                  </div>
                   </div>
               </div>
 
