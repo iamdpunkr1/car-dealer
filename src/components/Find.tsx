@@ -94,14 +94,14 @@ const Find = () => {
         </div>
 
         <div className="bg-[#f6f6f6]">
-            <div className=" flex justify-between max-w-[1240px] pt-8 pb-16 mx-auto">
+            <div className="flex flex-col gap-4 flex-nowrap md:flex-wrap  lg:flex-nowrap lg:flex-row md:flex-row justify-center max-w-[1200px] pt-8 pb-16 px-2 mx-auto">
                     {
                         dropdownValues.map((item) => (
                             <Dropdown key={item.id} title={item.title} values={item.values} />
                         ))
                     }
 
-                    <button className="bg-[#ecba00] text-white font-semibold text-sm px-10 py-2 ">
+                    <button className=" bg-[#ecba00] w-[95%] mt-4 md:w-[95%]  md:mt-0 lg:w-[20%] lg:mt-0 text-white font-semibold text-sm  py-2 mx-auto">
                         FIND IT NOW
                     </button>
             </div>
