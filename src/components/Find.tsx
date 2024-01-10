@@ -54,7 +54,7 @@ const dropdownValues = [
 
 const Find = () => {
   return (
-    <div className="h-screen bg-slate-100 relative ">
+    <div className="h-full  relative ">
         {/* slanted object */}
         <div className="section_curve hidden md:block" >
             <svg width="100%" data-height={70} height="70px" style={{ height: 70 }} className="">
