@@ -55,6 +55,7 @@ const dropdownValues = [
 const Find = () => {
   return (
     <div className="h-screen bg-slate-100 relative ">
+        {/* slanted object */}
         <div className="section_curve hidden md:block" >
             <svg width="100%" data-height={70} height="70px" style={{ height: 70 }} className="">
             <defs>
@@ -91,15 +92,16 @@ const Find = () => {
             />
             </svg>
         </div>
+
         <div className="bg-[#f6f6f6]">
-            <div className=" flex justify-around flex-wrap max-w-[1200px] pt-4 pb-16 px-8 mx-auto">
+            <div className=" flex justify-between max-w-[1240px] pt-8 pb-16 mx-auto">
                     {
                         dropdownValues.map((item) => (
                             <Dropdown key={item.id} title={item.title} values={item.values} />
                         ))
                     }
 
-                    <button className="bg-[#ecba00] text-white font-semibold text-sm px-10 py-3 ">
+                    <button className="bg-[#ecba00] text-white font-semibold text-sm px-10 py-2 ">
                         FIND IT NOW
                     </button>
             </div>

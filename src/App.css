@@ -103,3 +103,7 @@ body {
   z-index: 9;
   /* background-color: blueviolet; */
 }
+
+.option:hover{
+  background-color: #ecba00 !important;
+}

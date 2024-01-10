@@ -32,7 +32,7 @@ const Hero = () => {
 
   return (
     <>
-      <div className={`relative  `} style={{height:"100vh"}}
+      <div className={`relative  `} style={{height:"80vh"}}
             onMouseEnter={() => setIsHovered(true)}
             onMouseLeave={() => setIsHovered(false)}
       >
