@@ -19,7 +19,7 @@ const Navbar = () => {
 
 
   return (
-    <header className="border-t-[6px] border-[#ecba00]">
+    <header className="before:content-[''] before:border-t-[6px] before:border-[#ecba00] before:w-screen  mx-auto">
        {/* 1st part */}
         <nav className="max-w-[1200px]  mx-auto  hidden lg:flex justify-between items-center py-[18px] border-b-[1px] border-[#eee]">
             <h1 className="text-md">Welcome to Autodealer Car Service</h1>
@@ -42,7 +42,7 @@ const Navbar = () => {
         </nav>
 
         {/* 2nd part */}
-        <nav className="max-w-[1200px] mx-auto flex justify-between items-center py-[30px] pb-12 px-6">
+        <nav className=" mx-auto flex justify-between items-center py-[30px] pb-12 px-6 max-w-[1200px] mx-auto">
             <img src={logo} alt="logo" className="max-w-[228px]"/>
             <div className="lg:hidden">
                  <Hamburger toggled={isOpen} toggle={setOpen} size={30} color={"#222"}  />
@@ -65,16 +65,18 @@ const Navbar = () => {
         </nav>
 
         {/* 3rd nav */}
-        <nav className="bg-[#222] p-6 w-10/12 navlinks  hidden lg:block">
-            <div className="max-w-[1200px] ml-auto flex justify-between items-center pr-12" >
-                <ul className="font-semibold flex text-white gap-8">
+        <nav className=" relative   hidden lg:block">
+            <div className="nav-bottom navlinks z-55 h-16 bg-[#222] flex justify-between items-center max-w-[1230px] mx-auto" >
+                <ul className="font-semibold flex text-white gap-8 pl-8">
                     <li className={navStyles}>HOME</li>
                     <li className={navStyles}>AUTO LISTINGS</li>
                     <li className={navStyles}>OUR NEWS</li>
                     <li className={navStyles}>SHOP</li>
                     <li className={navStyles}>CONTACT US</li>
                 </ul>
-                <FaSearch color="#fff" size={18}/>
+                <div className="search pr-16">
+                <FaSearch color="#fff" size={18} />
+                </div>
             </div>
         </nav>
 

@@ -1,12 +1,15 @@
 import Navbar from "./components/Navbar"
-import './App.css'
+import Find from "./components/Find"
 import Hero from "./components/Hero"
+import './App.css'
+
 function App() {
 
   return (
     <>
     <Navbar />
     <Hero />
+    <Find/>
     </>
   )
 }

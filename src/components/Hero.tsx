@@ -32,7 +32,7 @@ const Hero = () => {
 
   return (
     <>
-      <div className={`relative  `} style={{height:"90vh"}}
+      <div className={`relative  `} style={{height:"100vh"}}
             onMouseEnter={() => setIsHovered(true)}
             onMouseLeave={() => setIsHovered(false)}
       >
@@ -57,7 +57,7 @@ const Hero = () => {
               </button>
               
               <button
-                className='absolute top-1/2 p-4 bg-white z-50 right-4 rounded-full bg-slate-950'
+                className='absolute top-1/2 p-4  z-50 right-4 rounded-full bg-slate-950'
                 onClick={handlePrev}
                 onMouseEnter={() => setHoveredPrev(true)}
                 onMouseLeave={() => setHoveredPrev(false)}
@@ -88,28 +88,25 @@ const Hero = () => {
                 i === index ? 'opacity-100' : 'opacity-0'
               } ${"zoomClass"}`}
             >
-
-            </div>
-            
-          ))}
-        </div>
-        {/* <div className="absolute top-0 left-0 bg-slate-950 opacity-10 w-full h-full zoomed"
-        >
-        </div> */}
-        <div className="absolute " style={{top:"20%",left:"60%"}}>
-                  <div style={{width:"70%"}}>
+              
+              <div className="absolute flex justify-center md:justify-end lg:justify-end" style={{top:"20%"}}>
+                  <div style={{width:"73%"}}>
                   <p className="text-white text-md font-bold">DRIVE YOUR DREAM CAR</p>
-                  <h1 className="text-5xl text-white font-bold ">LEXUS NX 300 2018</h1>
+                  <h1 className="text-5xl text-white font-bold ">{i%2==0? "LEXUS NX 300 2018":"WANT TO BUY YOUR FAVOURITE SUV?"}</h1>
                   <h2 className="text-3xl text-white font-light mt-4">
                     REFRESHED STYLE, HIGH PERFORMANCE  & OUTSTANDING TECHNOLOGY
                   </h2>
                   <img src={price1} alt="" className="mt-4"/>
                   </div>
               </div>
-      </div>
-      <div className="h-screen bg-slate-100">
+
+            </div>
+            
+          ))}
+        </div>
 
       </div>
+
     </>
   );
 };
