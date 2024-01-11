@@ -6,6 +6,7 @@ import Welcome from "./components/Welcome"
 import Types from "./components/Types"
 import Offers from "./components/Offers"
 import Services from "./components/Services"
+import About from "./components/About"
 
 function App() {
 
@@ -18,6 +19,7 @@ function App() {
     <Types/>
     <Offers/>
     <Services/>
+    <About/>
     </>
   )
 }
