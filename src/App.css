@@ -267,9 +267,98 @@ body {
  }
    */
 .price{
-  padding-top: 40px !important; 
+  padding-top: 30px !important; 
    clip-path: polygon(0% 40%, 100% 0%, 100% 100%, 0% 100%);
 }
 
 }
 
+.price{
+  transition: all 0.3s ease-in-out;
+}
+
+
+
+/* Services */
+
+
+.services{
+  background-color: rgba(0,0,0,0.7) !important;
+}
+
+.ser-card {
+  width: 90%;
+  height: 300px;
+  cursor: all-scroll;
+  
+}
+
+.ser-content {
+  
+  position: relative;
+  transition: all 1s;
+  background-color: white;
+  padding-bottom: 15em;
+  transform-style: preserve-3d;
+}
+
+.ser-card:hover .ser-content {
+  transform: rotateY(0.5turn);
+}
+
+.ser-front,
+.ser-back {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  padding: 2em;
+  transform-style: preserve-3d;
+  backface-visibility: hidden;
+}
+
+.ser-title {
+  transform: translateZ(5rem);
+  font-size: 2rem;
+}
+
+.ser-subtitle {
+  transform: translateZ(2rem);
+}
+
+.ser-back {
+  transform: rotateY(0.5turn);
+  background-color: #ecba00;
+  color:white;
+}
+
+.ser-description {
+  transform: translateZ(3rem);
+}
+
+
+
+.slick-dots li.slick-active button::before{
+  color: #ecba00 !important;
+  opacity: 1 !important;
+  content :"■" !important;
+}
+
+.slick-dots li button::before{
+  color: #fff !important;
+  opacity: 100 !important;
+  content :"■" !important;
+  font-size: 20px !important;
+}
+
+.ser-b::after{
+  content:" ";
+  display: table;
+  position: relative;
+    background: #ecba00;
+    top: 10px;
+    width: 20%;
+    left: 0%;
+    height: 3px;
+}
