@@ -4,6 +4,7 @@ import Hero from "./components/Hero"
 import './App.css'
 import Welcome from "./components/Welcome"
 import Types from "./components/Types"
+import Offers from "./components/Offers"
 
 function App() {
 
@@ -14,6 +15,7 @@ function App() {
     <Find/>
     <Welcome/>
     <Types/>
+    <Offers/>
     </>
   )
 }

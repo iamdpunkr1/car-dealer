@@ -241,3 +241,20 @@ body {
   border-bottom: 3px solid #ecba00;
 
 }
+
+
+/* offer section */
+@media only screen and (min-width: 768px) {
+  .price::before{
+    content:" ";
+    display: table;
+    background: #ecba00;
+    height: 30px;
+    width: 100%;
+    position: relative;
+    top:1px;
+    z-index: 999;
+    clip-path: polygon(0% 90%, 100% 0%, 100% 100%, 0% 100%);
+  }
+  
+}

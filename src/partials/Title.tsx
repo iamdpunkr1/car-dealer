@@ -7,7 +7,7 @@ type TitleProps = {
 const Title = ({title1, title2, description}: TitleProps) => {
   return (
     <div className="text-center py-4">
-        <h1 className="text-5xl font-semibold text-white text-center">
+        <h1 className="text-5xl font-semibold text-black text-center">
             {title1} <span className="text-[#ecba00]">{title2}</span>
         </h1>
         

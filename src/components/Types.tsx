@@ -7,12 +7,12 @@ import luxurycar from "../assets/luxury1.png"
 
 const Types = () => {
   return (
-    <section className="bg-black py-16">
+    <section className="bg-black py-24 ">
         <h1 className="text-5xl font-semibold text-white text-center">
             Types of <span className="text-[#ecba00]">Vehicles</span>
         </h1>
         
-        <div className="max-w-[1200px] flex flex-col gap-4  md:lg:grid md:lg:grid-cols-2 md:lg:grid-rows-2 md:lg:gap-4 mx-auto mt-24 relative box-border px-2">
+        <div className="max-w-[1200px] flex flex-col gap-4  md:lg:grid md:lg:grid-cols-2 md:lg:grid-rows-2 md:lg:gap-4 mx-auto mt-24 relative box-border px-2 pb-8">
             
             <SkewedCars  img={sedan} title="sedan" offers={8} right={false}/>
             <SkewedCars  img={sedan2} title="sedan" offers={8} right={true}/>
