@@ -244,10 +244,15 @@ body {
 
 
 /* offer section */
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 800px) {
+/* 
+  .price {
+    position: relative;
+  }
+
   .price::before{
     content:" ";
-    display: table;
+    display: block;
     background: #ecba00;
     height: 30px;
     width: 100%;
@@ -256,5 +261,15 @@ body {
     z-index: 999;
     clip-path: polygon(0% 90%, 100% 0%, 100% 100%, 0% 100%);
   }
-  
+
+ .price:hover::before{
+    background: #222;
+ }
+   */
+.price{
+  padding-top: 40px !important; 
+   clip-path: polygon(0% 40%, 100% 0%, 100% 100%, 0% 100%);
 }
+
+}
+

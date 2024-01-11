@@ -39,11 +39,11 @@ const OfferCard = () => {
 
             </div>
 
-            <div className="price w-full">
-            <div className="bg-[#ecba00] w-full text-center py-4">
-                <p className="text-white text-sm">$4,500</p>
-            </div>
-            </div>
+
+                <div className=" price bg-[#ecba00] w-full text-center py-4  hover:bg-[#222]">
+                    <p className="text-white text-sm">$4,500</p>
+                </div>
+            
         </div>
         
     </div>
