@@ -179,3 +179,65 @@ body {
       flex-direction: column;
   }
 }
+
+
+/* Vehicle Types */
+
+.hid{
+  overflow: hidden;
+}
+
+
+/* First & Last child */
+@media screen and (min-width: 1200px) {
+  .hid:nth-child(1) div{
+    transform: skewX(20deg);
+    position: relative;
+    left:25px;
+  }
+  
+  .hid:nth-child(4) div{
+    transform: skewX(20deg);
+    position: relative;
+    left:-25px;
+  }
+  
+  .hid:nth-child(1) .test div, .hid:nth-child(4) .test div{
+    transform: skewX(-20deg);
+    
+  }
+  
+  
+  /* Second & Third child */
+  .hid:nth-child(2) div{
+    transform: skewX(-20deg);
+    position: relative;
+    left:-25px;
+  }
+  
+  .hid:nth-child(3) div{
+    transform: skewX(-20deg);
+    position: relative;
+    left:25px;
+  }
+  
+  .hid:nth-child(2) .test div, .hid:nth-child(3) .test div{
+    transform: skewX(20deg);
+    
+  }
+    
+}
+
+.test{
+  transition: all 0.3s ease-in-out;
+}
+.test:hover{
+  border-bottom:#ecba00 6px solid;
+  background: #282929;
+  color: aliceblue;
+}
+
+.skewTitle{
+  border-bottom: 3px solid #ecba00;
+
+}
