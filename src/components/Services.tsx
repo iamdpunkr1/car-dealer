@@ -61,7 +61,7 @@ const Services = () => {
 
                 <div className="py-24 ">
                 <Slider {...settings} className="mx-auto w-11/12">
-                    {items.map((item, index) => item)}
+                    {items.map((item) => item)}
                 </Slider>
                 </div>
             </div>         
