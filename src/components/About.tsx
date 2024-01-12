@@ -28,11 +28,11 @@ const About = () => {
     <section className=" py-20 max-w-[1200px] mx-auto ">
         <Title title1="About" title2="Autodrive" description="SOMETHING ABOUT COMPANY" bg="light"/>
         
-        <div className="flex flex-col lg:flex-row mt-24">
-            <div className="text-[#222] w-11/12 lg:w-6/12 my-4 mx-auto">
+        <div className="flex flex-col lg:flex-row pt-24">
+            <div className="text-[#222] w-11/12 lg:w-6/12 my-4 mx-auto pl-2">
                 <h3 className="text-md font-bold">We are a Trusted Name in Auto Industry</h3>
-                <h1 className="text-xl font-bold my-2">Visited by Million of Car Buyers Every Month!</h1>
-                <p className="text-sm text-[#666] mt-4 mb-12">Autodealer is nisi aliquip consequat duis velit esse cillum dolore
+                <h1 className="text-xl font-bold py-2">Visited by Million of Car Buyers Every Month!</h1>
+                <p className="text-sm text-[#666] pt-4 pb-12">Autodealer is nisi aliquip consequat duis velit esse cillum dolore
                      fugiat nulla pariatur excepteur sint occaecat. Lorem ipsum dolor 
                      sit amet consectetur adipisicing elit sed eiusmod tempor incididuntu
                       labore et dolore magna aliqua enim ad minim veniam quis nostrud exercitation
@@ -44,7 +44,7 @@ const About = () => {
                 {
                     items.map((item, index) => (
                         <div key={index}>
-                            <div className="flex items-center my-4">
+                            <div className="flex items-center py-4">
                                 <div className=" p-2 rounded-full mr-4">
                                     {item.icon}
                                 </div>
@@ -60,10 +60,10 @@ const About = () => {
             
 
             <div className="w-11/12  lg:w-6/12 px-4 relative ">
-                <div className="relative h-[700px] lg:h-auto">
+                <div className="relative about md:h-[700px] lg:h-auto">
                 <img src={aboutImg} alt="about" className=" absolute  top-8 w-full "/>
                 <img src={aboutImg2} alt="about2" className="absolute left-8  w-full"/>
-                </div>
+            </div>
                 
             </div>
         </div>
