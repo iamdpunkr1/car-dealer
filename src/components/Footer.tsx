@@ -41,8 +41,8 @@ const Footer = () => {
         
         <div className="relative">
             <Slanted bg={"#f6f6f6"}/>
-            <div className="text-center text-sm text-[#666] tracking-wider pb-8 bg-[#f6f6f6] ">
-                Copyright 2023. Dipankar Prasad
+            <div className="text-center text-sm text-[#666] tracking-wider pb-8 pt-4 bg-[#f6f6f6] ">
+                Copyright 2023. AlegraLabs x Dipankar 
             </div>
         </div>
     </footer>

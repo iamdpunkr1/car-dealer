@@ -2,12 +2,13 @@ type SlantedProps = {
     bg: string;
 }
 const Slanted = ({bg}:SlantedProps) => {
+    console.log(bg)
   return (
         <div className="section_curve hidden md:block" >
             <svg width="100%" data-height={70} height="70px"  >
             <defs>
                 <pattern
-                id="pix-decor-shape-145885930"
+                id={"pix-decor-shape-145885930"+bg}
                 preserveAspectRatio="none"
                 patternUnits="userSpaceOnUse"
                 x={0}
@@ -29,7 +30,7 @@ const Slanted = ({bg}:SlantedProps) => {
                 width="100%"
                 data-height={70}
                 height={70}
-                fill="url(#pix-decor-shape-145885930)"
+                fill={`url(#pix-decor-shape-145885930${bg})`}
             />
             
             </svg>

@@ -5,7 +5,7 @@ import Title from "../partials/Title"
 const News = () => {
   return (
     <section className="bg-white relative py-14">
-        <Slanted bg={"#fff"} />
+        <Slanted bg="#fff" />
         <Title
         title1="Latest"
         title2="News"

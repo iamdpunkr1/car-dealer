@@ -41,12 +41,12 @@ const settings = {
   };
 
   const items = [
-    <ServicesCard/>,
-    <ServicesCard/>,
-    <ServicesCard/>,
-    <ServicesCard/>,
-    <ServicesCard/>,
-    <ServicesCard/>
+    <ServicesCard key={1}/>,
+    <ServicesCard key={2}/>,
+    <ServicesCard key={3}/>,
+    <ServicesCard key={4}/>,
+    <ServicesCard key={5}/>,
+    <ServicesCard key={6}/>
     // Add more items as needed
   ];
 const Services = () => {
@@ -61,7 +61,7 @@ const Services = () => {
 
                 <div className="py-24 ">
                 <Slider {...settings} className="mx-auto w-11/12">
-                    {items}
+                    {items.map((item, index) => item)}
                 </Slider>
                 </div>
             </div>         
