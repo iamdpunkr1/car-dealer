@@ -469,3 +469,16 @@ opacity: 0 ; /* Hide contentA on hover */
 .fadeIn{
   top: 50%;
 }
+
+
+/* Blog slide animation */
+
+.slide{
+  width: 115% !important;
+  transform: translateX(-15%);
+  transition: all 1s ease-in-out;
+}
+
+.slide:hover{
+  transform: translateX(0%);
+}

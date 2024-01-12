@@ -11,6 +11,7 @@ import './App.css'
 import Gallery from "./components/Gallery"
 import Team from "./components/Team"
 import Testimonials from "./components/Testimonials"
+import News from "./components/News"
 
 function App() {
 
@@ -28,6 +29,7 @@ function App() {
     <Gallery/>
     <Team/>
     <Testimonials/>
+    <News/>
     </>
   )
 }
