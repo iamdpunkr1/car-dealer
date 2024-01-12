@@ -1,16 +1,13 @@
-import { FaFacebookF, FaTwitter, FaInstagram, FaSearch } from "react-icons/fa";
-import { TfiYoutube } from "react-icons/tfi";
+import {  FaSearch } from "react-icons/fa";
 import { IoCall, IoEarthOutline } from "react-icons/io5";
 import { MdOutlineAccessTime, MdOutlineEmail } from "react-icons/md";
 import { Divide as Hamburger } from 'hamburger-react'
 import logo from '../assets/logo.png'
 import Helement from "../partials/Helement";
 import { useState } from "react";
+import SocialIcons from "../partials/SocialIcons";
 
-const iconStyles= {
-    size: 22,
-    color: "#666"
-}
+
 
 const navStyles = "cursor-pointer hover:text-[#ecba00]";
 
@@ -24,10 +21,7 @@ const Navbar = () => {
         <nav className="max-w-[1200px]  mx-auto  hidden lg:flex justify-between items-center py-[18px] border-b-[1px] border-[#eee]">
             <h1 className="text-md">Welcome to Autodealer Car Service</h1>
             <div className="flex gap-4 items-center">
-             <FaFacebookF {...iconStyles} />
-             <FaTwitter {...iconStyles}/>
-             <TfiYoutube {...iconStyles}/>
-             <FaInstagram {...iconStyles}/>
+            <SocialIcons size={22} color={"#666"} />
 
              <div className="flex ml-8 relative flex-wrap">
                 <div className="flex items-center bg-[#222] py-4 px-5 hbtn relative left-3">

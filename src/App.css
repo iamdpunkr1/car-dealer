@@ -523,3 +523,16 @@ opacity: 0 ; /* Hide contentA on hover */
 .mail div{
   transform: skewX(30deg);
 }
+
+
+/* FOOTER */
+.footer-b::after{
+  content:" ";
+  display: table;
+  position: relative;
+    background: #ecba00;
+    top: 10px;
+    width: 15px;
+    left: 0%;
+    height: 3px;
+}

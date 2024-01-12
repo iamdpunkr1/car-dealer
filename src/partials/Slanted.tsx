@@ -2,7 +2,7 @@ type SlantedProps = {
     bg: string;
 }
 const Slanted = ({bg}:SlantedProps) => {
-    console.log(bg)
+
   return (
         <div className="section_curve hidden md:block" >
             <svg width="100%" data-height={70} height="70px"  >
