@@ -9,6 +9,7 @@ import About from "./components/About"
 import Sale from "./components/Sale"
 import './App.css'
 import Gallery from "./components/Gallery"
+import Team from "./components/Team"
 
 function App() {
 
@@ -24,6 +25,7 @@ function App() {
     <About/>
     <Sale/>
     <Gallery/>
+    <Team/>
     </>
   )
 }
