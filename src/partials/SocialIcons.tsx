@@ -1,4 +1,4 @@
-import { FaFacebookF, FaTwitter, FaInstagram, FaSearch } from "react-icons/fa";
+import { FaFacebookF, FaTwitter, FaInstagram } from "react-icons/fa";
 import { TfiYoutube } from "react-icons/tfi";
 
 type SocialIconsProps = {
