@@ -10,7 +10,7 @@ const Gallery = () => {
   }));
 
   return (
-    <section className="bg-white relative pb-14">
+    <section className="bg-white relative py-14">
       <Slanted bg={"#fff"} />
       <Title
         title1="Photo"
