@@ -25,11 +25,11 @@ const items = [
 
 const About = () => {
   return (
-    <section className="about py-20 max-w-[1200px] mx-auto">
+    <section className=" py-20 max-w-[1200px] mx-auto ">
         <Title title1="About" title2="Autodrive" description="SOMETHING ABOUT COMPANY" bg="light"/>
         
         <div className="flex flex-col lg:flex-row mt-24">
-            <div className="text-[#222] w-11/12 lg:w-6/12 h-full my-4 mx-auto">
+            <div className="text-[#222] w-11/12 lg:w-6/12 my-4 mx-auto">
                 <h3 className="text-md font-bold">We are a Trusted Name in Auto Industry</h3>
                 <h1 className="text-xl font-bold my-2">Visited by Million of Car Buyers Every Month!</h1>
                 <p className="text-sm text-[#666] mt-4 mb-12">Autodealer is nisi aliquip consequat duis velit esse cillum dolore
@@ -57,10 +57,14 @@ const About = () => {
                     ))
                 }
             </div>
+            
 
-            <div className="w-11/12  lg:w-6/12 px-4 relative">
+            <div className="w-11/12  lg:w-6/12 px-4 relative ">
+                <div className="relative h-[700px] lg:h-auto">
                 <img src={aboutImg} alt="about" className=" absolute  top-8 w-full "/>
-                <img src={aboutImg2} alt="about2" className="absolute left-8  w-full "/>
+                <img src={aboutImg2} alt="about2" className="absolute left-8  w-full"/>
+                </div>
+                
             </div>
         </div>
     </section>

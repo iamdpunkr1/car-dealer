@@ -345,7 +345,7 @@ body {
 }
 
 .slick-dots li button::before{
-  color: #fff !important;
+  color: #f6f6f6 !important;
   opacity: 100 !important;
   content :"■" !important;
   font-size: 20px !important;
@@ -360,4 +360,39 @@ body {
     width: 20%;
     left: 0%;
     height: 3px;
+}
+
+
+
+/* Grow Animation sales-card*/
+
+@keyframes growContent {
+  0% {
+    transform: scale(0);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.sale-card {
+
+  overflow: hidden; /* Hide overflow when content grows */
+
+}
+.sale-card:hover .contentA {
+display: none !important;
+opacity: 0 ; /* Hide contentA on hover */
+}
+
+.contentB {
+  animation: growContent 0.3s ease-in-out;
+  animation-fill-mode: both;
+  display: none; /* Initially hide contentB */
+}
+
+.sale-card:hover .contentB {
+  display: block;
+  width:100%;
+  height:100%;/* Show contentB on hover */
 }
