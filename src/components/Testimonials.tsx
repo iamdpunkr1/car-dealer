@@ -55,7 +55,7 @@ const Testimonials = () => {
       >
 
       </div>
-      <div className="absolute inset-0 w-full h-full py-32">
+      <div className="absolute inset-0 w-full h-full pt-14">
                   <Title title1="Clients" title2="Testimonials"
                     description="SATISFIED CLIENTS EVERYWHERE"
                     bg="dark"
