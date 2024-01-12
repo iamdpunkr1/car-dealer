@@ -12,6 +12,7 @@ import Gallery from "./components/Gallery"
 import Team from "./components/Team"
 import Testimonials from "./components/Testimonials"
 import News from "./components/News"
+import Footer from "./components/Footer"
 
 function App() {
 
@@ -30,6 +31,7 @@ function App() {
     <Team/>
     <Testimonials/>
     <News/>
+    <Footer/>
     </>
   )
 }
