@@ -10,6 +10,7 @@ import Sale from "./components/Sale"
 import './App.css'
 import Gallery from "./components/Gallery"
 import Team from "./components/Team"
+import Testimonials from "./components/Testimonials"
 
 function App() {
 
@@ -26,6 +27,7 @@ function App() {
     <Sale/>
     <Gallery/>
     <Team/>
+    <Testimonials/>
     </>
   )
 }
