@@ -8,7 +8,7 @@ import luxurycar from "../assets/luxury1.png"
 const Types = () => {
   return (
     <section className="bg-black py-24 ">
-        <h1 className="text-5xl font-semibold text-white text-center">
+        <h1 className="text-5xl font-semibold text-white text-center leading-tight">
             Types of <span className="text-[#ecba00]">Vehicles</span>
         </h1>
         
