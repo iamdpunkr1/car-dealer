@@ -20,7 +20,7 @@ const Title = ({title1, title2, description, bg}: TitleProps) => {
 
         {
             bg==="light" && (
-                <div className="flex flex-col items-center mt-4">
+                <div className="flex flex-col items-center mt-8">
                     <div className=" h-[3px] bg-[#666] w-[50px]" ></div>
                     <div className=" h-[2px] bg-[#666] w-[50px] my-1 translate-x-1/3" ></div>
                     <div className=" h-[3px] bg-[#666] w-[50px] translate-x-2/3" ></div>

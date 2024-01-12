@@ -2,7 +2,7 @@ import { FaMinusSquare } from "react-icons/fa";
 
 const ServicesCard = () => {
   return (
-    <div className="ser-card ">
+    <div className="ser-card  mx-auto">
         <div className="ser-content ">
             <div className="ser-front flex flex-col justify-center">
                 <h3 className="ser-title">
