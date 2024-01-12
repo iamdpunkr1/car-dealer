@@ -12,21 +12,21 @@ const Hero = () => {
   const [hoveredNext, setHoveredNext] = useState(false);
   const [hoveredPrev, setHoveredPrev] = useState(false);
   const [isHovered, setIsHovered] = useState(false);
-  const [zoomClass, setZoomClass] = useState('');
+  // const [zoomClass, setZoomClass] = useState('');
 
   useEffect(() => {
-      setZoomClass('zoomed');
+      // setZoomClass('zoomed');
   }, [index]);
 
 
 
   const handleNext = () => {
-    setZoomClass('');
+    // setZoomClass('');
     setIndex((index + 1) % images.length);
   };
 
   const handlePrev = () => {
-    setZoomClass('');
+    // setZoomClass('');
     setIndex((index - 1 + images.length) % images.length);
   };
 
