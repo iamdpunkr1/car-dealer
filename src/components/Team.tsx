@@ -70,7 +70,7 @@ const Team = () => {
     {
         brandImages.map((image) => (
             <div key={image.id}>
-                <img src={image.path} alt={`gallery-${image.id}`} className="max-w-10/12 mx-auto" />
+                <img src={image.path} alt={`gallery-${image.id}`} className="max-w-11/12 mx-auto" />
             </div>
         ))
     }
