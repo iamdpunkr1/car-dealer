@@ -40,7 +40,7 @@ const Hero = () => {
           isHovered && (
             <>
                 <button
-                className='absolute top-1/2 p-4 rounded-full bg-slate-950 left-4  z-50'
+                className='absolute top-1/2 p-4 rounded-full bg-black/50 left-4  z-50'
                 onClick={handleNext}
                 onMouseEnter={() => setHoveredNext(true)}
                 onMouseLeave={() => setHoveredNext(false)}
@@ -50,14 +50,14 @@ const Hero = () => {
                   backgroundPosition: 'center',
                   transform: hoveredNext ? 'scale(1.1)' : 'scale(1)',
                   transition: 'transform 0.3s ease',
-                  opacity: 0.5,
+                 
                 }}
               >
                 <IoIosArrowBack className=' text-3xl text-white opacity-100' />
               </button>
               
               <button
-                className='absolute top-1/2 p-4  z-50 right-4 rounded-full bg-slate-950'
+                className='absolute top-1/2 p-4  z-50 right-4 rounded-full bg-black/50'
                 onClick={handlePrev}
                 onMouseEnter={() => setHoveredPrev(true)}
                 onMouseLeave={() => setHoveredPrev(false)}
@@ -67,7 +67,7 @@ const Hero = () => {
                   backgroundPosition: 'center',
                   transform: hoveredPrev ? 'scale(1.1)' : 'scale(1)',
                   transition: 'transform 0.3s ease',
-                  opacity: 0.5,
+                  
                 
                 }}
               >
