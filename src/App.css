@@ -140,6 +140,7 @@ body {
   width: 350px;
   height: 350px;
   perspective: 1200px;
+  -webkit-perspective: 1200px;
 }
 .box-content{
   width: 100%;
@@ -158,6 +159,7 @@ body {
 .side-1{
   transform: rotateY(0deg) translateZ(150px);
   backface-visibility: hidden !important;
+  -webkit-backface-visibility: hidden !important;
   z-index: 2;
 }
 .side-2{
@@ -564,9 +566,7 @@ opacity: 0 ; /* Hide contentA on hover */
 
 }
 
-.box:hover img {
-  /* transform: scale(1.1); */
-}
+
 
 .box:hover .overlay {
   height: 100%;
