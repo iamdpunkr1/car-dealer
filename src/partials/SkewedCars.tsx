@@ -15,7 +15,7 @@ const SkewedCars = ({img, title, offers, right}:SkewedCarsProps) => {
 
             <div className="">
                  <h1 className="uppercase text-base font-semibold skewTitle inline-block mb-2">{title}</h1>
-                <p className="text-[#666]">{offers} offers starting from $42,000 </p>
+                <p className="text-[#666] para">{offers} offers starting from $42,000 </p>
             </div>
         
     </div>

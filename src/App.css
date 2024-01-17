@@ -233,13 +233,19 @@ body {
 
 .test{
   transition: all 0.3s ease-in-out;
+  border-bottom:#fff 6px solid;
 }
+
+
 .test:hover{
   border-bottom:#ecba00 6px solid;
   background: #282929;
   color: aliceblue;
 }
 
+.test:hover .para{
+  color:white !important;
+}
 .skewTitle{
   border-bottom: 3px solid #ecba00;
 
