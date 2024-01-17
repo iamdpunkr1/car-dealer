@@ -25,7 +25,7 @@ const items = [
 const Sale = () => {
 
   return (
-    <section className="bg-black mt-24  ">
+    <section className="bg-black mt-24  py-20">
          <div className="max-w-[1200px] mx-4 md:lg:mx-auto flex justify-center flex-wrap md:lg:flex-nowrap gap-4 items-center h-96">
         {
             items.map((item, index) => <SaleCards key={index}
