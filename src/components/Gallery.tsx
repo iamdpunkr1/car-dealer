@@ -27,7 +27,7 @@ const Gallery = () => {
             <div className="g-overlay">
               <div className="g-content flex flex-col justify-end p-1  md:p-2 lg:p-4">
                 <h3 className="font-semibold text-lg">Aston Martin</h3>
-                <p className="">Diago Johnson  --&gt; </p>
+                <p className="text-[#666]">Diago Johnson  --&gt; </p>
               </div>
             </div>
             
