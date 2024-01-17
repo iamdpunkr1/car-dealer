@@ -9,7 +9,7 @@ type SaleCardsProps = {
 
 const SaleCards = ({icon, title, description}: SaleCardsProps) => {
   return (
-    <Zoom className="w-full md:w-1/2 lg:1/3 h-30">
+    <Zoom className="w-full md:w-1/2 lg:1/3 h-30" triggerOnce={true}>
     <div className=" bg-white  sale-card ">
       
        <div className="contentA px-4 py-6 " >
