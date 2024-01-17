@@ -27,7 +27,7 @@ const Gallery = () => {
             <div className="overlay"></div>
             <div className="content-details fadeIn">
                 <h3 className="content-title">Aston Martin</h3>
-                <p className="content-text">Diago Johnson  -- </p>
+                <p className="content-text">Diago Johnson  --&gt; </p>
             </div>
           </div>
         </div>

@@ -10,7 +10,7 @@ const settings = {
     infinite: true,
     speed: 1000,
     slidesToShow: 3,
-    slidesToScroll: 2,
+    slidesToScroll: 3,
     autoplay:true,
     autoplaySpeed: 4000,
     arrows:false,
@@ -27,14 +27,14 @@ const settings = {
           breakpoint: 600,
           settings: {
             slidesToShow: 2,
-            slidesToScroll: 4
+            slidesToScroll: 2
           }
         },
         {
           breakpoint: 480,
           settings: {
             slidesToShow: 1,
-            slidesToScroll: 5
+            slidesToScroll: 1
           }
         }
       ]

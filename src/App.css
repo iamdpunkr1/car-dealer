@@ -426,8 +426,8 @@ opacity: 0 ; /* Hide contentA on hover */
   overflow: hidden;
 }
 
-.content .content-overlay {
-  background: rgba(0,0,0,0.7) !important;
+.content-overlay {
+  background: rgba(0,0,0,0.5) !important;
   position: absolute;
   height: 99%;
   width: 100%;
