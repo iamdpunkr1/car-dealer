@@ -419,7 +419,41 @@ opacity: 0 ; /* Hide contentA on hover */
 
 
 /* GALLERY CSS */
-.content {
+.g-box{
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.g-overlay {
+  position:absolute;
+  width:100%;
+  height:100%;
+  top:0;
+  left:0;
+  bottom:0;
+  right:0;
+  opacity:0;
+  background-color: rgba(0,0,0,0.7);
+  padding:10px;
+  -webkit-transition: all 0.4s ease-in-out 0s;
+  -moz-transition: all 0.4s ease-in-out 0s;
+  transition: all 0.4s ease-in-out 0s;
+  z-index: 999;
+}
+
+.g-content {
+  width:100%;
+  height:100%;
+  color: #fff;
+}
+
+.g-box:hover .g-overlay{
+ opacity:1;
+}
+
+
+/* .content {
   position: relative;
   margin: auto;
   cursor: pointer;
@@ -465,7 +499,10 @@ opacity: 0 ; /* Hide contentA on hover */
   -webkit-transition: all 0.3s ease-in-out 0s;
   -moz-transition: all 0.3s ease-in-out 0s;
   transition: all 0.3s ease-in-out 0s;
+  background-color: rgba(0, 0, 0, 0.5);
 }
+
+
 
 .content:hover .content-details{
   top: 80%;
@@ -488,7 +525,7 @@ opacity: 0 ; /* Hide contentA on hover */
 
 .fadeIn{
   top: 50%;
-}
+} */
 
 
 /* Blog slide animation */

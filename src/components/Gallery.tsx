@@ -21,15 +21,16 @@ const Gallery = () => {
 
       <div className="mt-16 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-4">
         {galleryImages.map((image) => (
-        <div key={image.id}>
-          <div key={image.id} className="content">
+      
+          <div key={image.id} className="g-box">
             <img src={image.path} alt={`gallery-${image.id}`} className="w-full" loading="lazy"/>
-            <div className="overlay"></div>
-            <div className="content-details fadeIn">
-                <h3 className="content-title">Aston Martin</h3>
-                <p className="content-text">Diago Johnson  --&gt; </p>
+            <div className="g-overlay">
+              <div className="g-content flex flex-col justify-end p-1  md:p-2 lg:p-4">
+                <h3 className="font-semibold text-lg">Aston Martin</h3>
+                <p className="">Diago Johnson  --&gt; </p>
+              </div>
             </div>
-          </div>
+            
         </div>
         ))}
       </div>
