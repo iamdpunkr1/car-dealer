@@ -1,3 +1,5 @@
+import { Zoom } from "react-awesome-reveal"
+
 type SaleCardsProps = {
     icon: React.ReactNode;
     title: string;
@@ -7,7 +9,9 @@ type SaleCardsProps = {
 
 const SaleCards = ({icon, title, description}: SaleCardsProps) => {
   return (
-    <div className="w-full md:w-1/2 lg:1/3 h-30 bg-white  sale-card ">
+    <Zoom className="w-full md:w-1/2 lg:1/3 h-30">
+    <div className=" bg-white  sale-card ">
+      
        <div className="contentA px-4 py-6 " >
                             <div className="flex items-center ">
                                 <div className=" p-2 rounded-full mr-4">
@@ -28,6 +32,7 @@ const SaleCards = ({icon, title, description}: SaleCardsProps) => {
         </div>
         
     </div>
+    </Zoom>
   )
 }
 

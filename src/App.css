@@ -404,7 +404,7 @@ body {
 }
 
 .sale-card {
-  animation: growContent 0.5s ease-in-out;
+  /* animation: growContent 0.5s ease-in-out; */
   overflow: hidden; /* Hide overflow when content grows */
 
 }
