@@ -23,7 +23,7 @@ const Gallery = () => {
         {galleryImages.map((image) => (
         <div key={image.id}>
           <div key={image.id} className="content">
-            <img src={image.path} alt={`gallery-${image.id}`} className="w-full" />
+            <img src={image.path} alt={`gallery-${image.id}`} className="w-full" loading="lazy"/>
             <div className="overlay"></div>
             <div className="content-details fadeIn">
                 <h3 className="content-title">Aston Martin</h3>

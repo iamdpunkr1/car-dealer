@@ -13,7 +13,7 @@ const iconStyles= {
 const OfferCard = () => {
   return (
     <div className="bg-[#f6f6f6] w-full m-4 lg:max-w-[22%]">
-        <img src={carimg} alt="car" className="w-full"/>
+        <img src={carimg} alt="car" className="w-full" loading="lazy"/>
         <div className='flex flex-col items-center'>
             <h1 className="text-[#222] text-center font-semibold text-md mt-4">Mazda CX 9</h1>
             

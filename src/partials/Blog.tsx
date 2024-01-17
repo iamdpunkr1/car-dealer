@@ -5,7 +5,7 @@ const Blog = () => {
   return (
     <div className="bg-white w-80 border border-solid border-[#eee] overflow-hidden">
       
-        <img src={blog} alt="blog" className=" slide " style={{minWidth:"120%"}}  />
+        <img src={blog} alt="blog" className=" slide " style={{minWidth:"120%"}}  loading="lazy"/>
       
       <div className='p-2'>
           <h1 className="text-[#222] text-md font-semibold  py-2 tracking-widest border-b border-solid border-[#eee]">Bout Avez was main jet</h1>

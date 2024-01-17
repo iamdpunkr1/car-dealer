@@ -10,7 +10,7 @@ const SkewedCars = ({img, title, offers, right}:SkewedCarsProps) => {
     <div className={`bg-white py-4 test flex flex-col  justify-center gap-8 items-center ${right? "md:lg:flex-row-reverse":" md:lg:flex-row"} px-4`}>
         
             <div className="bottom-4">
-                <img src={img} alt={title} className="w-[90%] md:w-44 lg:40 mx-auto"/>
+                <img src={img} alt={title} className="w-[90%] md:w-44 lg:40 mx-auto" loading="lazy"/>
             </div>
 
             <div className="">

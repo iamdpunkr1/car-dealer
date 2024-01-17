@@ -61,8 +61,8 @@ const About = () => {
 
             <div className="w-11/12  lg:w-6/12 px-4 relative ">
                 <div className="relative about md:h-[700px] lg:h-auto">
-                <img src={aboutImg} alt="about" className=" absolute  top-8 w-full "/>
-                <img src={aboutImg2} alt="about2" className="absolute left-8  w-full"/>
+                <img src={aboutImg} alt="about" className=" absolute  top-8 w-full" loading="lazy"/>
+                <img src={aboutImg2} alt="about2" className="absolute left-8  w-full" loading="lazy"/>
             </div>
                 
             </div>
